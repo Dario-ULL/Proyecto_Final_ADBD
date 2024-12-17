@@ -1,0 +1,31 @@
+﻿{% extends 'base.html' %}
+
+{% block content %}
+    <h1 class="my-4">{% block title %} Equipos {% endblock %}</h1>
+    
+    {% if equipos|length == 0 %}
+        <div class="alert alert-info" role="alert">
+            No hay registros de equipos disponibles.
+        </div>
+    {% else %}
+        {% for equipo in equipos %}
+            <div class="card w-75 mb-3"> <!-- Añadido mb-3 para margen entre tarjetas -->
+                <div class="card-body">
+                    <h5 class="card-title">ID: {{ equipo[0] }} - Juego: {{ equipo[1] }}</h5>
+                    <a href="{{ url_for('update', equipo_id=equipo[0]) }}" class="btn btn-warning">Editar</a>
+                    <form action="{{ url_for('delete') }}" method="POST" style="display: inline;">
+                        <input type="hidden" name="ID_Equipo" value="{{ equipo[0] }}">
+                        <button type="submit" class="btn btn-danger">Eliminar</button>
+                    </form>
+                    <!-- Botones para otras acciones -->
+                    <a href="{{ url_for('resultados', equipo_id=equipo[0]) }}" class="btn btn-primary">Resultados</a>
+                    <a href="{{ url_for('patrocinadores', equipo_id=equipo[0]) }}" class="btn btn-primary">Patrocinadores</a>
+                    <a href="{{ url_for('integrantes', equipo_id=equipo[0]) }}" class="btn btn-info">Ver Integrantes</a>
+                    
+                    <!-- Nuevo botón para agregar jugador -->
+                    <a href="{{ url_for('agregar_jugador', equipo_id=equipo[0]) }}" class="btn btn-success mt-3">Añadir Jugador</a>
+                </div>
+            </div>
+        {% endfor %}
+    {% endif %}
+{% endblock %}

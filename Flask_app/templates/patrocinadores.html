@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1 class="my-4">{% block title %} Patrocinadores del equipo {% endblock %}</h1>
+
+    {% if patrocinadores|length == 0 %}
+        <div class="alert alert-info" role="alert">
+            Este equipo no tiene patrocinadores asociados.
+        </div>
+    {% else %}
+        <table class="table table-bordered table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Presupuesto</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for patrocinador in patrocinadores %}
+                    <tr>
+                        <td>{{ patrocinador[0] }}</td>
+                        <td>${{ patrocinador[1] }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% endif %}
+
+    <a href="{{ url_for('index') }}" class="btn btn-primary mt-3">Volver a la lista de equipos</a>
+{% endblock %}

@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1 class="my-4">Añadir Jugador al Equipo</h1>
+
+    <form method="POST">
+        <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" name="nombre" required>
+        </div>
+        <div class="mb-3">
+            <label for="primer_apellido" class="form-label">Primer Apellido</label>
+            <input type="text" class="form-control" id="primer_apellido" name="primer_apellido" required>
+        </div>
+        <div class="mb-3">
+            <label for="segundo_apellido" class="form-label">Segundo Apellido</label>
+            <input type="text" class="form-control" id="segundo_apellido" name="segundo_apellido">
+        </div>
+        <div class="mb-3">
+            <label for="edad" class="form-label">Edad</label>
+            <input type="number" class="form-control" id="edad" name="edad" required>
+        </div>
+        <div class="mb-3">
+            <label for="nacionalidad" class="form-label">Nacionalidad</label>
+            <input type="text" class="form-control" id="nacionalidad" name="nacionalidad" required>
+        </div>
+        <div class="mb-3">
+            <label for="apodo" class="form-label">Apodo</label>
+            <input type="text" class="form-control" id="apodo" name="apodo">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Añadir Jugador</button>
+    </form>
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1 class="my-4">Resultados del Equipo</h1>
+    
+    {% if resultados|length == 0 %}
+        <div class="alert alert-info" role="alert">
+            No hay resultados disponibles para este equipo.
+        </div>
+    {% else %}
+        {% for resultado in resultados %}
+            <div class="card w-75 mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Torneo: {{ resultado[1] }}</h5>
+                    <p class="card-text">Resultado: {{ resultado[2] }}</p>
+                    <p class="card-text">Partidos Totales: {{ resultado[3] }}</p>
+                    <p class="card-text">Victorias: {{ resultado[4] }}</p>
+                </div>
+            </div>
+        {% endfor %}
+    {% endif %}
+{% endblock %}

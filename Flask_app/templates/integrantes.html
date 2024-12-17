@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1 class="my-4">{% block title %} Integrantes del Equipo {% endblock %}</h1>
+
+    <table class="table table-bordered table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th>Nombre</th>
+                <th>Primer Apellido</th>
+                <th>Segundo Apellido</th>
+                <th>Tipo</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for integrante in integrantes %}
+                <tr>
+                    <td>{{ integrante[0] }}</td>
+                    <td>{{ integrante[1] }}</td>
+                    <td>{{ integrante[2] }}</td>
+                    <td>{{ integrante[3] }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>    
+    <a href="{{ url_for('index') }}" class="btn btn-primary mt-3">Volver a la lista de equipos</a>
+{% endblock %}
+

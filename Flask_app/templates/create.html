@@ -1,0 +1,15 @@
+﻿{% extends 'base.html' %}
+
+{% block content %}
+    <h1 class="my-4">{% block title %} Añadir un Nuevo Equipo {% endblock %}</h1>
+
+    <form method="post">
+        <div class="mb-3">
+            <label for="juego" class="form-label">Juego</label>
+            <input type="text" class="form-control" id="juego" name="juego" placeholder="Juego del equipo" required>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+{% endblock %}
+
