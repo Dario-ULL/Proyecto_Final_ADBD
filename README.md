@@ -1,5 +1,5 @@
 # Projecto Final ADBD
-Autores: Lihao Zhu y Darío Domínguez González
+Autores: Lihao Zhu y Darío Domínguez González.
 
 Repositorio del proyecto final. Con el código y la documentación del trabajo.
 
