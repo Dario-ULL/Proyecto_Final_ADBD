@@ -8,22 +8,22 @@ Teniendo esto en cuenta podemos estimar que nuestra base de datos podria valer a
 
 El presupuesto dependerá de la escala que tenga el proyecto, para una escala mediala el desglose del presupuesto sería el siguiente:
 
-|              Concepto              |      Precio     |
+|              Concepto              |    Precio (€)   |
 |:----------------------------------:|:---------------:|
 | Hosting en la nube (mensual)       | 300 - 600       |
-| Servicios gestionados (opcional)   | 500 - 1000      |
+| Servicios gestionados (opcional)   | 500 - 1.000     |
 | Licencias de software (si aplica)  | 200 - 500       |
-| Modelado y diseño de base de datos | 2500 - 5000     |
-| Implementación de restricciones    | 2000 - 4000     |
-| Desarrollo de triggers y cálculos  | 3000 - 5000     |
-| Validación de datos                | 2000 - 3000     |
-| Pruebas de rendimiento             | 2000 - 4000     |
-| Desarrolladores (1-3 meses)        | 10000 - 20000   |
-| Consultores PostgreSQL (opcional)  | 3000 - 6000     |
-| Desarrolladores (1-3 meses)        | 10000 - 20000   |
-| Consultores PostgreSQL (opcional)  | 3000 - 6000     |
-| Personal de soporte                | 5000 - 10000    |
-| Actualizaciones y backups          | 2000 - 5000     |
+| Modelado y diseño de base de datos | 2.500 - 5.000   |
+| Implementación de restricciones    | 2.000 - 4.000   |
+| Desarrollo de triggers y cálculos  | 3.000 - 5.000   |
+| Validación de datos                | 2.000 - 3.000   |
+| Pruebas de rendimiento             | 2.000 - 4.000   |
+| Desarrolladores (1-3 meses)        | 10.000 - 20.000 |
+| Consultores PostgreSQL (opcional)  | 3.000 - 6.000   |
+| Desarrolladores (1-3 meses)        | 10.000 - 20.000 |
+| Consultores PostgreSQL (opcional)  | 3.000 - 6.000   |
+| Personal de soporte                | 5.000 - 10.000  |
+| Actualizaciones y backups          | 2.000 - 5.000   |
 |                                    |                 |
 |               Total                | 18,200 - 45,500 |
 
