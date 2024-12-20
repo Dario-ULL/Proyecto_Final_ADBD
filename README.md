@@ -7,6 +7,7 @@ Investigando un poco hemos encontrado que una base de datos simple o pequeña pa
 Teniendo esto en cuenta podemos estimar que nuestra base de datos podria valer al rededor de XXX euros, aunque podria aumentar este precio si se desarrlla mas a profundidad.
 
 El presupuesto dependerá de la escala que tenga el proyecto, para una escala mediala el desglose del presupuesto sería el siguiente:
+
 |              Concepto              |      Precio     |
 |:----------------------------------:|:---------------:|
 | Hosting en la nube (mensual)       | 300 - 600       |
