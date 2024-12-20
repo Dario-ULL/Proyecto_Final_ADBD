@@ -1,2 +1,2 @@
 # Projecto Final ADBD
-Repositorio del proyecto final. Con el codigo y la documentacion del trabajo.
+Repositorio del proyecto final. Con el código y la documentación del trabajo.
