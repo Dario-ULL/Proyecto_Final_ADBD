@@ -23,7 +23,7 @@ El presupuesto dependerá de la escala que tenga el proyecto, para una escala me
 | Consultores PostgreSQL (opcional)  | 3000 - 6000     |
 | Personal de soporte                | 5000 - 10000    |
 | Actualizaciones y backups          | 2000 - 5000     |
-|:----------------------------------:|:---------------:|
+|                                    |                 |
 |               Total                | 18,200 - 45,500 |
 
 Esto para la infraestructura y desarrollo inicial, luego habría que tener en cuenta el mantenimiento, que sería un aproximado de entre 5000€ y 15000€
