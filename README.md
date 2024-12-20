@@ -27,4 +27,4 @@ El presupuesto dependerá de la escala que tenga el proyecto, para una escala me
 |                                    |                 |
 |               Total                | 18,200 - 45,500 |
 
-Esto para la infraestructura y desarrollo inicial, luego habría que tener en cuenta el mantenimiento, que sería un aproximado de entre 5000€ y 15000€
+Esto para la infraestructura y desarrollo inicial, luego habría que tener en cuenta el mantenimiento, que sería un aproximado de entre 5.000€ y 15.000€
